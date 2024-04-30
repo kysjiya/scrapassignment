@@ -1,0 +1,20 @@
+﻿<Window x:Class="scrapper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:scrapper"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFDBFDFC">
+        <Button x:Name="button" HorizontalAlignment="Left" Margin="400,248,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="fileNamee" HorizontalAlignment="Left" Margin="311,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" FontSize="20" Foreground="#FF179687" BorderThickness="0,0,0,0"/>
+        <Label x:Name="label" Content="Scrapper" HorizontalAlignment="Center" Margin="0,67,0,0" VerticalAlignment="Top" FontSize="36" Foreground="#FF179687"/>
+        <Label x:Name="label1" Content="File Name" HorizontalAlignment="Left" Margin="188,232,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FF179687"/>
+        <Label x:Name="label2" Content="URL" HorizontalAlignment="Left" Margin="188,162,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FF179687"/>
+        <Button x:Name="ButtonClick" Content="Scrap" HorizontalAlignment="Center" Margin="0,343,0,0" VerticalAlignment="Top" FontSize="20" BorderBrush="#FF179687" Background="#FF179687" Foreground="White" Width="232" Height="43" Click="Button_Click"/>
+        <TextBlock x:Name="messageTextBlock" HorizontalAlignment="Left" Margin="363,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Foreground="Red"/>
+        <TextBox x:Name="urll" HorizontalAlignment="Left" Margin="311,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" FontSize="20" Foreground="#FF179687" BorderThickness="0,0,0,0"/>
+
+    </Grid>
+</Window>
